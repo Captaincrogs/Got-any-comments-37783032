@@ -6,10 +6,11 @@
    <style type="text/css"></style>    
   <link href="style.css" rel="stylesheet" type="text/css" media="screen
   " />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <link rel="bootstrap">
   <script src="script.js"></script>
+  
 </head>
    
    
@@ -41,6 +42,7 @@
 </header>
 
 <body>
+   
 <div class="sample">
 <form action="/action_page.php">
 Voornaam:<input type="text" name="voornaam" value="voornaam"><br>
@@ -48,8 +50,12 @@ Achternaam:<input type="text" name="Achternaam" value="Achternaam"><br>
 Emailadres:<input type= "text"name= "Email" value= "Email"><br>
 Password:<input type="password" name= "wachtwoord" value= "wachtwoord"><br>
 <input type="submit" value="Submit">
+
 <p> Maak een account aan! </p>
-    <label for="\leeftijd?">kies je leeftijd:</label>
+
+
+
+    <label for="\provincie?">kies je Provincie:</label>
     <select id="location">
         <option value="">****kies je provincie****</option>
     <option value="Noord-holland">noord-holland</option>
@@ -66,60 +72,66 @@ Password:<input type="password" name= "wachtwoord" value= "wachtwoord"><br>
 
     </form>
     <p><bold>Welke dagen uit de week zijn jou favoriete dagen:</bold></p>
+   
+         
 
 <div>
   <input type="checkbox" id="Maandag" name="maandag"
-         checked>
+         >
   <label for="Maandag">Maandag</label>
 </div>
         <div>
   <input type="checkbox" id="dinsdag" name="dinsdag"
-         checked>
+         >
   <label for="Dinsdag">Dinsdag</label>
 </div>
         <div>
   <input type="checkbox" id="woensdag" name="woensdag"
-         checked>
+         >
   <label for="Woensdag">Woensdag</label>
 </div>
         <div>
   <input type="checkbox" id="donderdag" name="donderdag"
-         checked>
+         >
   <label for="Donderdag">Donderdag</label>
 </div>
         <div>
   <input type="checkbox" id="vrijdag" name="vrijdag"
-         checked>
+         >
   <label for="Vrijdag">Vrijdag</label>
 </div>
         <div>
   <input type="checkbox" id="zaterdag" name="zaterdag"
-         checked>
+         >
   <label for="Zaterdag">Zaterdag</label>
 </div>
         <div>
   <input type="checkbox" id="zondag" name="zondag"
-         checked>
+         >
   <label for="Zondag">Zondag</label>
 </div>
 </div>
-    <div class="soccer">
-    <p> houd je van voetbal kies je optie!</p>
-    <label for="pet-select">Kies je optie:</label>
+    
+     <form action="/action_page.php" class="voetbal">
 
-<select id="soccer">
-    <option value="">****kies je optie!****</option>
-    <option value="Ja zeker">Ja zeker</option>
-    <option value="Nee ik haat voetbal">Nee ik haat voetbal</option>
-</select>
-    </div>
+         <p> <bold>hou je van voetbal?</bold></p>
+  <input type="radio" name="voetbal" value="Ja zeker">ja zeker<br>
+  <input type="radio" name="voetbal" value="Nee">Nee<br>
+        <input type="submit" value="Submit">
+         </form>
+
+     
+         
+    
+         
+
 
 <label for="ervaring">wat kan volgens jou beter?:</label>
     <div>
 
 <textarea id="ervaring" class="ervaring-forum" name="ervaring"
           rows="5" cols="33">
-Deel je ervaring met ons?
+    <p>Deel je ervaring met ons?</p>
     
    </textarea>
          <input type="submit" value="Submit">
@@ -128,7 +140,7 @@ Deel je ervaring met ons?
         
     
     
-
+  
 
 </body>
 

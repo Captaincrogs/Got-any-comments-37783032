@@ -1,9 +1,9 @@
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #111;
+   list-style-type: none;
+     margin: 0;
+      padding: 0;
+       overflow: hidden;
+        background-color: #111;
 }
 
 li {
@@ -12,9 +12,9 @@ li {
 
 li a {
   display: inline-block;
-  color: #ff6666;
-  text-align: center;
-  padding:18px 14px;
+   color: #ff6666;
+    text-align: center;
+     padding:18px 14px;
   
 }
 
@@ -29,11 +29,11 @@ html{
 
 .fullbackground{ 
 
-  display: block;
-  margin-left: auto;
-  margin-right: 10%;
-  width: 40%;
-  margin-top: -4.3%
+ display: block;
+   margin-left: auto;
+    margin-right: 10%;
+     width: 40%;
+      margin-top: -4.3%
 
 
 
@@ -43,18 +43,10 @@ html{
    	font-family: cursive;
    }
 
-footer{  
-  display: ;
-  font-family: cursive;
-  font-size-adjust: ;
-  padding-top: 600px
-}
-
-
 
 .sample{
   margin-top: 185px; 
-  text-align: center;
+   text-align: center;
 }
 
 input {
@@ -70,12 +62,22 @@ input {
 .ervaring-forum{
     
     font-family:Charcoal;
-    text-decoration-line: underline;
-    color: red;
-   border: thick double #32a1ce;
+     color: springgreen;
+      border-width: 5px;
+       border-style: dotted;
+        text-align: left;
+         outline: none;
 }
 
+
+
+
+.voetbal{ 
+margin-left:34%%;
+    text-align: center;
+    
 }
+
 
     
 
