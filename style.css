@@ -62,12 +62,20 @@ input {
 .ervaring-forum{
     
     font-family:Charcoal;
-     color: springgreen;
+     
       border-width: 5px;
        border-style: dotted;
         text-align: left;
-         outline: none;
+        
 }
+  
+                   
+.ervaring-forum:focus-within{   
+  border-color: red;
+    
+}
+    
+
 
 
 
@@ -79,6 +87,5 @@ margin-left:34%%;
 }
 
 
-    
 
  
